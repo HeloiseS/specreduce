@@ -2,6 +2,8 @@ import specreduce.line_list_utils as lu
 #import line_list_utils as lu
 import numpy as np
 
+# PLEAAAASE WOOOORKK
+
 def test_query_nist_one_elem():
     table = lu.query_nist(['H I'])
     assert np.isclose(table['wavelength(A)'][0], 4102.86503481)
